@@ -13,7 +13,7 @@ body {
 
 #container {
   max-width: 1240px;
-  height: 1036px;
+  /* height: 1036px; */
   background-color: rgba(0, 0, 0, 0.3);
   /* background-color: #0000004d; */
   margin: auto;
@@ -79,4 +79,15 @@ span {
   border: none;
   color: white;
   cursor: pointer;
+}
+
+#form-button:hover {
+  background-color: #fff;
+  color: red;
+}
+
+.form-submit {
+  text-align: center;
+  /* width: 160px;
+  margin: auto; */
 }
